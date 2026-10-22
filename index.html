@@ -75,7 +75,8 @@ h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.2; margin: 10px 0 14px; l
 .nav.scrolled { background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom-color: var(--line); }
 .nav .wrap { display: flex; align-items: center; gap: 18px; height: 68px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -.01em; }
-.mono { width: 36px; height: 36px; border-radius: 11px; background: var(--grad); color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 800; box-shadow: 0 6px 16px rgba(79,70,229,.35); }
+.avatar { width: 38px; height: 38px; border-radius: 50%; padding: 2px; background: var(--grad); box-shadow: 0 6px 16px rgba(79,70,229,.35); flex: none; }
+.avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; background: #fff; }
 .links { display: flex; gap: 4px; margin-left: auto; }
 .links a { padding: 8px 12px; border-radius: 10px; font-size: 14.5px; font-weight: 600; color: var(--ink2); }
 .links a:hover { background: var(--ac-soft); color: var(--ac); }
@@ -275,7 +276,7 @@ footer b { color: var(--ink2); }
 <!-- ============ NAV ============ -->
 <header class="nav" id="nav">
   <div class="wrap">
-    <a class="brand" href="#top" aria-label="Home"><span class="mono">MA</span><span><span lang="en" class="en-name">Ashraful Islam</span><span lang="bn" class="bn-name">আশরাফুল ইসলাম</span></span></a>
+    <a class="brand" href="#top" aria-label="Home"><span class="avatar"><img src="assets/avatar.webp" alt="" width="34" height="34"></span><span><span lang="en" class="en-name">Ashraful Islam</span><span lang="bn" class="bn-name">আশরাফুল ইসলাম</span></span></a>
     <nav class="links" id="links">
       <a href="#about"><span lang="en">About</span><span lang="bn">পরিচিতি</span></a>
       <a href="#skills"><span lang="en">Skills</span><span lang="bn">দক্ষতা</span></a>
