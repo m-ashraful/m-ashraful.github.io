@@ -1096,12 +1096,16 @@ function githubPanel(ed) {
     if (st.set) box.appendChild(el('div', 'note', '✅ চাবি বসানো আছে' + (st.user ? ' (GitHub: <b>' + esc(st.user) + '</b>, শেষ ৪ অক্ষর …' + esc(st.tail || '') + ')' : '') + ' · ' + when(st.at)));
     else box.appendChild(el('div', 'note warn', '⚠️ এখনো চাবি বসানো হয়নি — নিচের ধাপগুলো একবার করলেই হবে।'));
     if (!S.owner && !DEMO) { box.appendChild(el('p', 'hint', 'চাবি শুধু মালিক বসাতে পারেন।')); return; }
+    // গিটহাবের ফর্ম আগে থেকে ভরা: নাম, বিবরণ, মালিক, মেয়াদ ১ বছর, Contents: Read and write
+    var TOKEN_URL = 'https://github.com/settings/personal-access-tokens/new?name=Portfolio+Admin&description=Lets+Portfolio+Admin+publish+m-ashraful.github.io&target_name=m-ashraful&expires_in=365&contents=write';
+    var go = el('a', 'btn pri', '1️⃣ গিটহাবের ভরা ফর্ম খুলুন ↗'); go.href = TOKEN_URL; go.target = '_blank'; go.rel = 'noopener'; go.style.margin = '4px 0 14px'; go.style.textDecoration = 'none';
+    box.appendChild(go);
     box.appendChild(el('ol', 'steps',
-      '<li>কম্পিউটারে GitHub-এ <b>m-ashraful</b> অ্যাকাউন্টে লগইন থাকা অবস্থায় <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">এই লিংক</a> খুলুন।</li>' +
-      '<li><b>Token name</b>: Portfolio Admin · <b>Expiration</b>: 1 year (বা No expiration)।</li>' +
-      '<li><b>Repository access</b> → <b>Only select repositories</b> → <b>m-ashraful.github.io</b> বাছুন।</li>' +
-      '<li><b>Permissions</b> → <b>Repository permissions</b> → <b>Contents</b> → <b>Read and write</b>।</li>' +
-      '<li>নিচে <b>Generate token</b> চাপুন, তারপর <b>github_pat_…</b> দিয়ে শুরু হওয়া চাবিটা কপি করে এখানে বসান।</li>'));
+      '<li>উপরের বোতাম চাপুন (কম্পিউটারে, গিটহাবে <b>m-ashraful</b> লগইন থাকা অবস্থায়)। নাম, মেয়াদ আর অনুমতি আগে থেকেই বসানো থাকবে।</li>' +
+      '<li><b>Repository access</b>-এ <b>Only select repositories</b> চাপুন, তারপর তালিকা থেকে <b>m-ashraful.github.io</b> বাছুন।</li>' +
+      '<li>নিচে সবুজ <b>Generate token</b> চাপুন (আবার জিজ্ঞেস করলে আবার চাপুন)।</li>' +
+      '<li><b>github_pat_…</b> দিয়ে শুরু হওয়া চাবিটা কপি করে নিচের ঘরে বসিয়ে "চাবি বসান" চাপুন। চাবিটা পরে গিটহাবে আর দেখা যায় না, তাই এখনই বসান।</li>'));
+    box.appendChild(el('p', 'hint', 'চাবিটা শুধু এই একটা সাইটে লিখতে পারে। মেয়াদ এক বছর; শেষ হলে প্রকাশ করার সময় পাতা জানিয়ে দেবে, তখন একই ধাপে নতুন চাবি বসাবেন।'));
     var i = inp('', false, function () {}, 'github_pat_…'); i.autocomplete = 'off'; i.spellcheck = false;
     var b = el('button', 'btn pri', st.set ? 'নতুন চাবি বসান' : 'চাবি বসান'); b.type = 'button'; b.style.margin = '10px 0 16px';
     b.onclick = function () {
