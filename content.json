@@ -14,8 +14,8 @@
    "bn": "অপারেশনস ও এডটেক পেশাজীবী · বিজনেস সিস্টেম নির্মাতা"
   },
   "sum": {
-   "en": "COO at Technique Easy Education, Head of Sales & Marketing at Technique Publication and Operations Manager at EntryLab. I lead teams, sharpen processes, and build the data-driven tools my teams run on every day, from task planners to inventory, invoicing and payroll systems, built hands-on with AI (Claude Code).",
-   "bn": "টেকনিক ইজি এডুকেশনের চিফ অপারেটিং অফিসার, টেকনিক পাবলিকেশনের সেলস ও মার্কেটিং প্রধান এবং EntryLab-এর অপারেশনস ম্যানেজার। আমি টিম পরিচালনা করি, কাজের প্রক্রিয়া আরও কার্যকর করি, আর টিমের প্রতিদিনের কাজের জন্য ডেটা-নির্ভর সিস্টেম বানাই: টাস্ক প্ল্যানার থেকে শুরু করে ইনভেন্টরি, ইনভয়েস আর বেতনের হিসাব পর্যন্ত, AI (Claude Code)-এর সাহায্যে।"
+   "en": "COO at Technique Easy Education, Head of Sales & Marketing at Technique Publication and Operations Manager at EntryLab. I lead teams, sharpen processes, and build the data-driven tools my teams run on every day, from task planners to inventory, invoicing, payroll, partnership and recruitment systems, built hands-on with AI (Claude Code).",
+   "bn": "টেকনিক ইজি এডুকেশনের চিফ অপারেটিং অফিসার, টেকনিক পাবলিকেশনের সেলস ও মার্কেটিং প্রধান এবং EntryLab-এর অপারেশনস ম্যানেজার। আমি টিম পরিচালনা করি, কাজের প্রক্রিয়া আরও কার্যকর করি, আর টিমের প্রতিদিনের কাজের জন্য ডেটা-নির্ভর সিস্টেম বানাই: টাস্ক প্ল্যানার থেকে শুরু করে ইনভেন্টরি, ইনভয়েস, বেতন, পার্টনারশিপ আর শিক্ষক নিয়োগ পর্যন্ত, AI (Claude Code)-এর সাহায্যে।"
   },
   "ctaWork": {
    "en": "See my work",
@@ -41,7 +41,7 @@
    },
    {
     "icon": "i2",
-    "n": "8",
+    "n": "10",
     "label": {
      "en": "systems built",
      "bn": "সিস্টেম তৈরি"
@@ -87,7 +87,7 @@
    },
    {
     "icon": "i7",
-    "n": 8,
+    "n": 10,
     "plus": false,
     "label": {
      "en": "Business systems built",
@@ -264,8 +264,8 @@
       "bn": "AI দিয়ে সিস্টেম তৈরি"
      },
      "d": {
-      "en": "Built 8 business systems for my teams with Claude Code, from inventory and invoicing to payroll and a one-page work hub.",
-      "bn": "Claude Code-এর সাহায্যে টিমের জন্য ৮টি বিজনেস সিস্টেম তৈরি: ইনভেন্টরি ও ইনভয়েস থেকে বেতন আর এক পাতার ওয়ার্ক হাব পর্যন্ত।"
+      "en": "Built 10 business systems for my teams with Claude Code, from inventory, invoicing and payroll to creator partnerships, teacher recruitment and a one-page work hub.",
+      "bn": "Claude Code-এর সাহায্যে টিমের জন্য ১০টি বিজনেস সিস্টেম তৈরি: ইনভেন্টরি, ইনভয়েস ও বেতন থেকে ক্রিয়েটর পার্টনারশিপ, শিক্ষক নিয়োগ আর এক পাতার ওয়ার্ক হাব পর্যন্ত।"
      }
     }
    ]
@@ -509,6 +509,10 @@
        {
         "en": "Built a one-page Work Hub that shows the day's key numbers from all my systems.",
         "bn": "সব সিস্টেমের দিনের মূল হিসাব এক পাতায় দেখানোর জন্য ওয়ার্ক হাব তৈরি।"
+       },
+       {
+        "en": "Built the 2027 teacher recruitment system: online application, admit cards by email and SMS, QR attendance at the exam, results, training and the final hiring panel.",
+        "bn": "২০২৭ সালের শিক্ষক নিয়োগ সিস্টেম তৈরি: অনলাইন আবেদন, ইমেইল ও SMS-এ প্রবেশপত্র, পরীক্ষায় QR দিয়ে উপস্থিতি, ফলাফল, প্রশিক্ষণ আর চূড়ান্ত নিয়োগের প্যানেল।"
        }
       ]
      },
@@ -581,6 +585,14 @@
        {
         "en": "Connected the courier partner's (Pathao) stock report to our books, so stock is matched automatically every day.",
         "bn": "কুরিয়ার পার্টনার (Pathao)-এর স্টক রিপোর্ট আমাদের হিসাবের সাথে যুক্ত করেছি, ফলে প্রতিদিন স্টক নিজে থেকেই মিলিয়ে দেখা হয়।"
+       },
+       {
+        "en": "Built PR Desk to run creator and media partnerships: contracts, installments, monthly content, proposal letters and agreement papers.",
+        "bn": "ক্রিয়েটর ও মিডিয়া পার্টনারশিপ চালাতে PR Desk তৈরি: চুক্তি, কিস্তি, মাসিক কনটেন্ট, প্রস্তাবের চিঠি আর চুক্তিপত্র।"
+       },
+       {
+        "en": "Review the online bookshop (tpl.com.bd) regularly and design its banners, combo and offer images.",
+        "bn": "অনলাইন বইয়ের দোকান (tpl.com.bd) নিয়মিত পর্যালোচনা, আর এর ব্যানার, কম্বো ও অফারের ছবির নকশা।"
        }
       ]
      }
@@ -740,8 +752,8 @@
    "bn": "আমার ডিজাইন ও তৈরি করা সিস্টেম"
   },
   "lead": {
-   "en": "Real tools used every day to run tasks, sales, stock, invoices and payroll. Each one turns a Google Sheet into a fast, installable web app with secure login, live dashboards and one-tap reports.",
-   "bn": "প্রতিদিনের কাজ, বিক্রি, স্টক, ইনভয়েস আর বেতনের হিসাব চালানোর জন্য বাস্তবে ব্যবহৃত টুল। প্রতিটি সিস্টেম একটি Google Sheet-কে দ্রুত, ইনস্টলযোগ্য ওয়েব অ্যাপে রূপ দেয়, যাতে আছে নিরাপদ লগইন, লাইভ ড্যাশবোর্ড আর এক ট্যাপে রিপোর্ট।"
+   "en": "Real tools used every day to run tasks, sales, stock, invoices, payroll, creator partnerships and teacher recruitment. Each one turns a Google Sheet into a fast, installable web app with secure login, live dashboards and one-tap reports.",
+   "bn": "প্রতিদিনের কাজ, বিক্রি, স্টক, ইনভয়েস, বেতন, ক্রিয়েটর পার্টনারশিপ আর শিক্ষক নিয়োগ চালানোর জন্য বাস্তবে ব্যবহৃত টুল। প্রতিটি সিস্টেম একটি Google Sheet-কে দ্রুত, ইনস্টলযোগ্য ওয়েব অ্যাপে রূপ দেয়, যাতে আছে নিরাপদ লগইন, লাইভ ড্যাশবোর্ড আর এক ট্যাপে রিপোর্ট।"
   },
   "note": {
    "en": "Screenshots show demo data. Tap any screen to enlarge.",
@@ -1053,6 +1065,70 @@
     }
    },
    {
+    "name": "PR Desk",
+    "cat": {
+     "en": "Partnerships",
+     "bn": "পার্টনারশিপ"
+    },
+    "desc": {
+     "en": "One desk for every creator, media and ad partnership: from finding new creators to contracts, installments and the content they deliver.",
+     "bn": "প্রতিটি ক্রিয়েটর, মিডিয়া ও বিজ্ঞাপন পার্টনারশিপের এক ডেস্ক: নতুন ক্রিয়েটর খোঁজা থেকে চুক্তি, কিস্তি আর তাদের দেওয়া কনটেন্ট পর্যন্ত।"
+    },
+    "feats": [
+     {
+      "en": "A profile for each creator with followers, contact history, contracts and every piece of content received.",
+      "bn": "প্রতিটি ক্রিয়েটরের প্রোফাইল: ফলোয়ার, যোগাযোগের খাতা, চুক্তি আর পাওয়া প্রতিটি কনটেন্ট।"
+     },
+     {
+      "en": "Contracts with installments, monthly content targets and ad proof; reminders before every payment is due.",
+      "bn": "কিস্তিসহ চুক্তি, মাসিক কনটেন্টের লক্ষ্য আর বিজ্ঞাপনের প্রমাণ; প্রতিটি কিস্তির আগে মনে করানো।"
+     },
+     {
+      "en": "Proposal letters by email and agreement papers numbered and made as Word/PDF, from draft to final to signed copy.",
+      "bn": "ইমেইলে প্রস্তাবের চিঠি, আর নম্বরসহ চুক্তিপত্র Word/PDF আকারে: খসড়া থেকে চূড়ান্ত হয়ে সই করা কপি পর্যন্ত।"
+     },
+     {
+      "en": "Discover page to find new creators on YouTube; follow-ups and payments go to my To-Do automatically.",
+      "bn": "YouTube থেকে নতুন ক্রিয়েটর খোঁজার পাতা; খোঁজ নেওয়া আর কিস্তির কাজ নিজে থেকেই To-Do-তে চলে যায়।"
+     },
+     {
+      "en": "English by default with a one-tap Bangla switch; work lists shared as a message, Excel or PDF.",
+      "bn": "মূল ভাষা ইংরেজি, এক ট্যাপে বাংলা; কাজের তালিকা মেসেজ, Excel বা PDF আকারে শেয়ার।"
+     }
+    ],
+    "chips": [
+     {
+      "en": "Apps Script",
+      "bn": ""
+     },
+     {
+      "en": "Google Sheets",
+      "bn": ""
+     },
+     {
+      "en": "YouTube API",
+      "bn": ""
+     },
+     {
+      "en": "Word · PDF",
+      "bn": ""
+     }
+    ],
+    "icon": "assets/ic-prd.webp",
+    "desk": {
+     "src": "assets/prd-desk.webp",
+     "alt": "PR Desk creator profile with contract, content and installments",
+     "w": 1600,
+     "h": 1000
+    },
+    "phone": {
+     "src": "assets/prd-phone.webp",
+     "alt": "PR Desk today page on phone",
+     "w": 480,
+     "h": 1039
+    }
+   },
+   {
     "name": "Salary System",
     "cat": {
      "en": "Payroll",
@@ -1117,6 +1193,74 @@
     }
    },
    {
+    "name": "Teacher Recruitment 2027",
+    "cat": {
+     "en": "Recruitment",
+     "bn": "নিয়োগ"
+    },
+    "desc": {
+     "en": "The full teacher-hiring process for two sister institutions in one system: from the online application to the written exam, training, demo class and final appointment.",
+     "bn": "দুই সহযোগী প্রতিষ্ঠানের শিক্ষক নিয়োগের পুরো প্রক্রিয়া এক সিস্টেমে: অনলাইন আবেদন থেকে লিখিত পরীক্ষা, প্রশিক্ষণ, ডেমো ক্লাস আর চূড়ান্ত নিয়োগ পর্যন্ত।"
+    },
+    "feats": [
+     {
+      "en": "Online application checked automatically; roll numbers with a check digit and admit cards sent by email and SMS.",
+      "bn": "অনলাইন আবেদন নিজে থেকেই যাচাই; যাচাই-অঙ্কসহ রোল নম্বর, আর প্রবেশপত্র ইমেইল ও SMS-এ।"
+     },
+     {
+      "en": "Seat plan by room and subject, and QR scan at the gate for exam attendance.",
+      "bn": "কক্ষ ও বিষয় ধরে আসন বিন্যাস, আর গেটে QR স্ক্যান করে পরীক্ষার উপস্থিতি।"
+     },
+     {
+      "en": "Marks entry, results with a waiting list, training attendance and a panel page where each judge scores the demo class.",
+      "bn": "নম্বর তোলা, অপেক্ষমাণ তালিকাসহ ফলাফল, প্রশিক্ষণের হাজিরা আর প্যানেলের পাতা যেখানে প্রত্যেক বিচারক ডেমো ক্লাসের নম্বর দেন।"
+     },
+     {
+      "en": "Each candidate has one \"My Application\" page with live status, notices and push notifications.",
+      "bn": "প্রত্যেক প্রার্থীর একটাই \"আমার আবেদন\" পাতা: চলতি অবস্থা, নোটিশ আর পুশ নোটিফিকেশন।"
+     },
+     {
+      "en": "Step-by-step report for the director, with roles (controller, coordinator, department head, office staff) and permissions set in the app.",
+      "bn": "পরিচালকের জন্য ধাপে ধাপে প্রতিবেদন; ভূমিকা (পরীক্ষা নিয়ন্ত্রক, সমন্বয়ক, বিভাগীয় প্রধান, অফিস সহকারী) আর অনুমতি অ্যাপ থেকেই ঠিক করা যায়।"
+     }
+    ],
+    "chips": [
+     {
+      "en": "Apps Script",
+      "bn": ""
+     },
+     {
+      "en": "Google Forms",
+      "bn": ""
+     },
+     {
+      "en": "SMS · Email",
+      "bn": ""
+     },
+     {
+      "en": "QR scan",
+      "bn": ""
+     },
+     {
+      "en": "Web Push",
+      "bn": ""
+     }
+    ],
+    "icon": "assets/ic-trc.webp",
+    "desk": {
+     "src": "assets/trc-desk.webp",
+     "alt": "Teacher Recruitment 2027 report page",
+     "w": 1600,
+     "h": 1000
+    },
+    "phone": {
+     "src": "assets/trc-phone.webp",
+     "alt": "Candidate \"My Application\" page on phone",
+     "w": 480,
+     "h": 1039
+    }
+   },
+   {
     "name": "Work Hub",
     "cat": {
      "en": "Dashboard",
@@ -1128,8 +1272,8 @@
     },
     "feats": [
      {
-      "en": "Live cards for tasks, entry work, team submissions, invoices and stock, filled in parallel as each app answers.",
-      "bn": "কাজ, এন্ট্রি, টিমের জমা, ইনভয়েস ও স্টকের লাইভ কার্ড; প্রতিটি অ্যাপ উত্তর দিলেই একসাথে ভরে যায়।"
+      "en": "Live cards from 7 apps (tasks, entry work, team submissions, invoices, stock, partnerships and recruitment), filled in parallel as each app answers.",
+      "bn": "৭টি অ্যাপের লাইভ কার্ড (কাজ, এন্ট্রি, টিমের জমা, ইনভয়েস, স্টক, পার্টনারশিপ আর নিয়োগ), প্রতিটি অ্যাপ সাড়া দেওয়ামাত্র একসাথে ভরে ওঠে।"
      },
      {
       "en": "One notification bell for all apps, plus its own login alerts.",
