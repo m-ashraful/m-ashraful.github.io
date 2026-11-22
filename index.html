@@ -31,7 +31,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script>
   // old address -> own domain (root page only; the /todo/, /cbt/ ... apps on github.io are untouched)
-  // ON AFTER SSL: if (location.hostname === 'm-ashraful.github.io') location.replace('https://ashrafis.co/' + location.hash);
+  // (the admin preview runs in srcdoc, hostname is empty there, so it is not forwarded)
+  if (location.hostname === 'm-ashraful.github.io') location.replace('https://ashrafis.co/' + location.hash);
 </script>
 <script>
   // theme + language before first paint (keys prefixed: every *.github.io app shares this origin)

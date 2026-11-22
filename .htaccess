@@ -14,10 +14,11 @@
 
 # always use https and the bare address (www -> ashrafis.co)
 RewriteEngine On
-# ON AFTER SSL (remove the # on the next 3 lines)
-#RewriteCond %{HTTPS} off [OR]
-#RewriteCond %{HTTP_HOST} ^www\. [NC]
-#RewriteRule ^ https://ashrafis.co%{REQUEST_URI} [L,R=301]
+# (SSL checked 2026-11-22; certificate renewal checks under /.well-known/ are left alone)
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://ashrafis.co%{REQUEST_URI} [L,R=301]
 
 DirectoryIndex index.html
 
