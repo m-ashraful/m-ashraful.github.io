@@ -20,6 +20,11 @@ RewriteEngine On
 #RewriteRule ^ https://ashrafis.co%{REQUEST_URI} [L,R=301]
 
 DirectoryIndex index.html
+
+# hidden files (deploy state, .nojekyll ...) are not for visitors
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
 Options -Indexes
 
 AddType application/manifest+json .webmanifest
