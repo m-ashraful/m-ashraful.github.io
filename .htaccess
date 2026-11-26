@@ -13,8 +13,12 @@
 # END cPanel-generated php ini directives, do not edit
 
 # always use https and the bare address (www.x -> x). No domain is written here,
-# so the same file works wherever the site is served (now: ashraful.ashrafis.co).
+# so the same file works wherever the site is served (now: m.ashrafis.co).
 RewriteEngine On
+# old address (ashraful.ashrafis.co, same folder) -> m.ashrafis.co, keeps the path
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{HTTP_HOST} ^(?:www\.)?ashraful\.ashrafis\.co$ [NC]
+RewriteRule ^ https://m.ashrafis.co%{REQUEST_URI} [L,R=301]
 # (certificate renewal checks under /.well-known/ are left alone)
 RewriteCond %{REQUEST_URI} !^/\.well-known/
 RewriteCond %{HTTPS} off [OR]
